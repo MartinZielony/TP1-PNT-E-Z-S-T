@@ -1,0 +1,80 @@
+html {
+    scroll-behavior: smooth;
+}
+
+main {
+    padding: 0% 5% 0% 5%;
+}
+
+.lista {
+    list-style: none;
+    padding: 0%;
+}
+
+header{
+    background-color: #790a09;
+	color: #fff;
+	padding: 20px;
+    display: flex;
+}
+
+.menu{
+    background-color: #790a09;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Arial,  sans-serif;
+
+}
+
+.imagen{
+    width: 10%;
+    border-radius: 10px;
+}
+
+.encabezado {
+    text-align: center;
+    padding: 0.5% 0% 0.5% 0%;
+}
+
+.item{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.navItem{
+    text-decoration: none;
+    color: white;
+    margin-left: 30px;
+}
+
+footer{
+    background-color: #790a09;
+	color: #fff;
+	padding: 20px;
+    display: flex;
+}
+
+.seccion {
+    background-color: lightgray;
+    border-radius: 10px;
+}
+
+.navPizza {
+    color: green;
+}
+
+.navPasta {
+    color: yellow;
+}
+
+.precio{
+    margin-right: 20px;
+}
