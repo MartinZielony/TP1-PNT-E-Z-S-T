@@ -49,6 +49,8 @@ html {
 main {
     padding: 0% 5% 0% 5%;
     margin: 2% 0 2% 0%;
+    display: flex;
+    justify-content: center;
 }
 
 .lista {
@@ -148,4 +150,37 @@ footer {
 .nav {
     display: flex;
     flex-direction: row;
+}
+
+.menuForm {
+    background-color: #D1B788;
+    padding: 3% 3% 0 3%;
+    border: 1px solid white;
+    border-radius: 10px;
+    margin-top: 150px;
+    width: 50vw;
+}
+
+.formulario {
+    padding-bottom: 5%;
+    display: flex;
+    flex-flow: column;
+    justify-content: space-evenly;
+    height: 50vw;
+}
+
+.formulario select{
+    width: 25%;
+}
+
+.anchoTexto {
+    width: 25%;
+}
+
+.corto{
+    width: 10%;
+}
+
+i {
+    color: white;
 }
